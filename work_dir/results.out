@@ -1,0 +1,28 @@
+Electrostatic potential parameters
+
+Grid information (see 1_ter_grid.dat in Angstrom)
+    Number of grid points:            7721
+
+Quantum electrostatic potential (see 1_ter_grid_esp.dat)
+
+Constraints
+    Equality constraints
+        Equal charges on atoms
+                                  1   3   4   5
+
+Restraint
+    Hyperbolic restraint to a charge of zero
+    Hydrogen atoms are not restrained
+    resp_a:                           0.0010
+    resp_b:                           0.1000
+
+Fit
+
+Electrostatic Potential Charges
+   Center  Symbol       ESP      RESP
+      1    H       0.12299966  0.12065880
+      2    C      -0.49199865 -0.48263519
+      3    H       0.12299966  0.12065880
+      4    H       0.12299966  0.12065880
+      5    H       0.12299966  0.12065880
+Total Charge:      0.00000000 -0.00000000
