@@ -16,7 +16,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, Descriptors
 from rdkit import Geometry as Geom
 from rdkit import RDLogger
-import calc, const, utils
+from . import calc, const, utils
 
 __version__ = '0.2.6'
 
