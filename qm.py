@@ -12,8 +12,9 @@ import json
 import gc
 from rdkit import Chem
 from rdkit import Geometry as Geom
-import utils, const, calc
-from psi4_wrapper import Psi4w
+from . import utils, const, calc
+from .psi4_wrapper import Psi4w
+
 
 __version__ = '0.2.3'
 
