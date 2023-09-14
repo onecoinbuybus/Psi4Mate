@@ -22,7 +22,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, TorsionFingerprints
 from rdkit import Geometry as Geom
 from rdkit.ML.Cluster import Butina
-import utils, const
+from . import utils, const
 
 __version__ = '0.2.6'
 
