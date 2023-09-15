@@ -15,8 +15,8 @@ import pickle
 import json
 from rdkit import Chem
 from rdkit.Chem import AllChem
-from . import const
-from .ff import ff_class
+import const
+from ff import ff_class
 
 __version__ = '0.2.8'
 
