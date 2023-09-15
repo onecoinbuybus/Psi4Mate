@@ -20,8 +20,7 @@ import psi4
 import resp
 #conda install resp -c psi4
 #conda install -c psi4 dftd3
-
-from . import const, calc, utils
+import const, calc, utils
 
 __version__ = '0.2.7'
 
